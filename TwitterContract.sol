@@ -16,4 +16,6 @@ contract TwitterContract {
         address to;
         uint createdAt;
     }
+
+    mapping(uint => Tweet) public tweets;
 }
