@@ -23,5 +23,5 @@ contract TwitterContract {
 
     mapping(address => Message[]) public conversations;
 
-    mapping(address => mapping (address => bool))
+    mapping(address => mapping(address => bool)) public operators;
 }
