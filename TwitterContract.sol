@@ -22,4 +22,6 @@ contract TwitterContract {
     mapping(address => uint[]) public tweetsOf;
 
     mapping(address => Message[]) public conversations;
+
+    mapping
 }
