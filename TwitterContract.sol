@@ -39,3 +39,5 @@ contract TwitterContract {
       nextId = nextId+1;
 
 }
+
+  function 
