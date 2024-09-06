@@ -42,3 +42,4 @@ contract TwitterContract {
 
   function _sendMessage(address _from,address _to,string memory _content) internal {
      require(_from==msg.sender|| operators[_from][msg.sender],"you dont have asccess");
+    conversations[_from].push(Message(nextMessageId,_content,
