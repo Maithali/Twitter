@@ -35,5 +35,6 @@ contract TwitterContract {
     function _tweet(address _from, string memory _content) internal { // tweet  access check - owner, authority
      require(_from == msg.sender || operators[_from][msg.sender],"you dont have access");
      tweets[nextId]=Tweet(nextId,_from,_content,block.timestamp);
+      tweetsOf[_from].push(nextId);
 
 }
