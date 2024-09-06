@@ -40,4 +40,4 @@ contract TwitterContract {
 
 }
 
-  function _sendMessage(address _from,address _to,
+  function _sendMessage(address _from,address _to,string memory _content) internal {
