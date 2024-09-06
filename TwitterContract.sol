@@ -29,5 +29,5 @@ contract TwitterContract {
 
     uint nextId;
 
-     uint
+    uint nextMessageId;
 }
