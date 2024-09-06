@@ -30,4 +30,6 @@ contract TwitterContract {
     uint nextId;
 
     uint nextMessageId;
+
+    function _tweet
 }
