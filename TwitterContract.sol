@@ -33,4 +33,7 @@ contract TwitterContract {
 
     
     function _tweet(address _from, string memory _content) internal { // tweet  access check - owner, authority
+
+    require
+
 }
