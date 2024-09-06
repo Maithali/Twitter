@@ -32,5 +32,5 @@ contract TwitterContract {
     uint nextMessageId;
 
     
-    function _tweet(address _from, string memory _content)
+    function _tweet(address _from, string memory _content) internal { // tweet  access check
 }
