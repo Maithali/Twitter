@@ -28,4 +28,6 @@ contract TwitterContract {
     mapping(address => address[]) public following;
 
     uint nextId;
+
+     uint
 }
