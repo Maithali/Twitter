@@ -62,3 +62,6 @@ contract TwitterContract {
   function sendMessage(address _from,address _to,string memory _content) public {
     _sendMessage(_from,_to,_content);
   }
+
+  function follow(address _followed) public {
+    
