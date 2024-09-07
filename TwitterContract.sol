@@ -68,4 +68,4 @@ contract TwitterContract {
 
   }
 
-  function allow(address _
+  function allow(address _operator) public {
