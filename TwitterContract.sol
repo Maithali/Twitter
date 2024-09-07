@@ -65,3 +65,7 @@ contract TwitterContract {
 
   function follow(address _followed) public {
     following[msg.sender].push(_followed);
+
+  }
+
+  function allow(address _
