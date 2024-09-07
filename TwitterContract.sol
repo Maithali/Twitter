@@ -69,4 +69,4 @@ contract TwitterContract {
   }
 
   function allow(address _operator) public {
-    operator
+    operator[msg.sender][_operator] = false;
