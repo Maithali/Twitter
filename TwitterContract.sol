@@ -55,4 +55,10 @@ contract TwitterContract {
     _tweet(_from, _content);
   }
 
-  function sendMessage(string memory _content,address _to)
+  function sendMessage(string memory _content,address _to) public {
+    _sendMessage(msg.sender, _to, _content);
+  }
+
+  function sendMessage(address _from,address _to,string memory _content) public {
+    _sendMessage(_from,_to,_content);
+  }
