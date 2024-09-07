@@ -52,5 +52,5 @@ contract TwitterContract {
   }
 
   function tweet(address _from,string memory _content) public{
-    
+    _tweet(_from, _content);
   }
