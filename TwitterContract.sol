@@ -69,3 +69,4 @@ contract TwitterContract {
   }
 
   function allow(address _operator) public {
+    operator
