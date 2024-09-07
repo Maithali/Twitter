@@ -46,3 +46,7 @@ contract TwitterContract {
      nextMessageId++;
 
   }
+
+  function tweet(string memory _content)public {
+    _tweet(msg.sender, _content);
+  }
