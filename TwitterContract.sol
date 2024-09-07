@@ -64,4 +64,4 @@ contract TwitterContract {
   }
 
   function follow(address _followed) public {
-    following
+    following[msg.sender].push(_followed);
