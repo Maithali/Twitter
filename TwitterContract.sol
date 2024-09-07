@@ -50,3 +50,7 @@ contract TwitterContract {
   function tweet(string memory _content)public {
     _tweet(msg.sender, _content);
   }
+
+  function tweet(address _from,string memory _content) public{
+    
+  }
