@@ -76,4 +76,7 @@ contract TwitterContract {
     require(count > 0 && count <= nextId, "Count is not proper");
     Tweet[] memory _tweets = new Tweet[](count);
     uint j;
-    for(uint i = nextId-count;i<nextId;i++)
+    for(uint i = nextId-count;i<nextId;  i++){
+      Tweet storage _structure  = tweets[i];
+
+    }
