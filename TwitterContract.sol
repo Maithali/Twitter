@@ -71,3 +71,5 @@ contract TwitterContract {
   function allow(address _operator) public {
     operator[msg.sender][_operator] = false;
   }
+
+  function getLatestTweets(uint count) public view returns{
