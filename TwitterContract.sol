@@ -78,5 +78,11 @@ contract TwitterContract {
     uint j;
     for(uint i = nextId-count;i<nextId;  i++){
       Tweet storage _structure  = tweets[i];
-
+      _tweets[j] = Tweet(_structure.id, _structure.author, _structure.
+      j = j + 1;
     }
+
+    return _tweets;
+
+  }
+  
