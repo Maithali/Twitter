@@ -72,4 +72,4 @@ contract TwitterContract {
     operator[msg.sender][_operator] = false;
   }
 
-  function getLatestTweets(uint count) public view returns{
+  function getLatestTweets(uint count) public view returns(Tweet[] memory)  {
