@@ -73,3 +73,4 @@ contract TwitterContract {
   }
 
   function getLatestTweets(uint count) public view returns(Tweet[] memory)  {
+    require(count > 0 && count <= nextId, "Count is not")
