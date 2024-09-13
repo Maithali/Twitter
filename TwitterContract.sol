@@ -85,4 +85,5 @@ contract TwitterContract {
     return _tweets;
 
   }
-  
+
+}  
